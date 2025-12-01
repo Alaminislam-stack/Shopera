@@ -31,7 +31,6 @@ export function Sidebar({
 
   const handleLogout = () => {
     logout();
-    onClose?.();
   };
 
   const SidebarContent = () => (
